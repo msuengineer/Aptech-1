@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Area Conversion</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="inner">
+        <div>
+          <label for="start">Value:</label>
+          <input type="text" id="start" />
+        </div>
+        <div>
+          <label for="f-option">From:</label>
+          <select id="f-option">
+            <option value="square inches">Square inches</option>
+            <option value="square feet">Square feet</option>
+            <option value="square yards">Square yards</option>
+            <option value="acres">Acres</option>
+            <option value="square miles">Square miles</option>
+          </select>
+        </div>
+        <div>
+            <label for="t-option">To:</label>
+            <select id="t-option">
+              <option value="square millimeters">Square millimeters</option>
+              <option value="square meters">Square meters</option>
+              <option value="square meters">Square meters</option>
+              <option value="hectares">Hectares</option>
+              <option value="square kilometers">Square kilometers</option>
+            </select>
+        </div>
+        <div id="display"></div>
+        <div id="result"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mass Conversion</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="inner">
+        <div>
+          <label for="start">Value:</label>
+          <input type="text" id="start" />
+        </div>
+        <div>
+          <label for="f-option">From:</label>
+          <select id="f-option">
+            <option value="ounces">Ounces</option>
+            <option value="pounds">Pounds</option>
+            <option value="short tons (2000 lb)">Short tons (2000 lb)</option>
+          </select>
+        </div>
+        <div>
+            <label for="t-option">To:</label>
+            <select id="t-option">
+              <option value="grams">Grams</option>
+              <option value="kilograms">Kilograms</option>
+              <option value='mega grams (or "metric ton")'>Mega grams (or "metric ton")</option>
+            </select>
+        </div>
+        <div id="display"></div>
+        <div id="result"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

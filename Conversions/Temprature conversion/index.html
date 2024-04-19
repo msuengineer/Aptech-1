@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temprature Conversion</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="inner">
+        <div>
+          <label for="start">Value:</label>
+          <input type="text" id="start" />
+        </div>
+        <div>
+          <label for="f-option">From:</label>
+          <select id="f-option">
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value="celsius">Celsius</option>
+          </select>
+        </div>
+        <div>
+            <label for="t-option">To:</label>
+            <select id="t-option">
+              <option value="celsius">Celsius</option>
+              <option value="fahrenheit">Fahrenheit</option>
+            </select>
+        </div>
+        <div id="display"></div>
+        <div id="result"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
