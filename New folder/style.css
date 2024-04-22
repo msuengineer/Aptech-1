@@ -1,0 +1,50 @@
+.nav-bg{
+    color:white;
+    background-color: rgba(0, 0, 0, 0.705);
+}
+.nav-text{
+    font-weight: bolder;
+}
+.tt-center{
+    text-align: center;
+}
+
+
+.about{
+    background-color: black;
+}
+
+.about button{
+    background-color: red;
+    
+}
+.about button a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.-animate-dropdown{
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.-animate-dropdown:hover{
+    transform:scale(1.1) ;
+}
+
+.text-animate{
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.text-animate:hover{
+    transform:scale(1.1) ;
+}
+
+.about img{
+    transition: all 1.5s ease;
+    cursor: pointer;
+}
+
+
+.about img:hover{
+    transform:scale(1.1) ;
+}
+
