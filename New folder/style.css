@@ -11,11 +11,14 @@
 
 
 .about{
-    background-color: black;
+    width: 100%;
+    width: 100%;
 }
 
 .about button{
-    background-color: red;
+    border: double;
+    border: 83px;
+    border-color: black;
     
 }
 .about button a{
@@ -43,8 +46,54 @@
     cursor: pointer;
 }
 
-
 .about img:hover{
     transform:scale(1.1) ;
 }
+.text_custom {
+    color: #00bd2a;
+}
+.img-border{
+    border-top-left-radius: 90px;
+    border-bottom-right-radius:90px ;
+}
+.mt-9{
+    margin-top: 100px;
+}
+.carousel-item .overlay{
+    position: absolute;
+    height:100%;
+    width: 100%;
+    z-index: 2;
+    background-color: rgba(21, 12, 8, 0.7);
+}
 
+.text{
+   position: absolute;
+ top:40%;
+ z-index: 3;
+ font-weight: bold;
+padding-inline: 12%;
+}
+
+.text button{
+    background-color: red;
+    color:white;
+}
+
+.btn-ani {
+    animation: zoom-in-zoom-out 1.2s ease-out infinite;
+  }
+  
+  @keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.2, 1.2);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+
+  
